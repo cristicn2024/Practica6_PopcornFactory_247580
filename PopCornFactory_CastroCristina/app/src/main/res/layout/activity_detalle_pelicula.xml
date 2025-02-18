@@ -57,7 +57,30 @@
             android:paddingHorizontal="20dp"
             />
 
+        <Button
+            android:id="@+id/btnBuyTickets"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FFD501"
+            android:text="BUY TICKETS"
+            android:textAllCaps="true"
+            android:textColor="#9E9E9E"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#9E9E9E"
+            android:textStyle="italic"
+            android:layout_marginTop="7dp"
+            android:id="@+id/tv_seatsLeft"
+            />
+
     </LinearLayout>
+
 
 
 </LinearLayout>

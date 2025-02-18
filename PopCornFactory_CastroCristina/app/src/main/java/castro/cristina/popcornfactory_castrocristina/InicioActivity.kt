@@ -10,18 +10,15 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class InicioActivity : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_inicio)
 
-        val btnGetMeIn : Button = findViewById(R.id.btn_get_me_in) as Button
+        val btnGetMeIn: Button = findViewById(R.id.btn_get_me_in)
+        val intent = Intent(this, MainActivity::class.java)
 
-        btnGetMeIn.setOnClickListener(){
-            val intent = Intent(this, MainActivity::class.java)
+        btnGetMeIn.setOnClickListener {
             startActivity(intent)
         }
-
     }
 }

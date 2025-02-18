@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context=".ResumenCompraActivity">
+
+
+    <TextView
+        android:id="@+id/tv_movieTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie: "
+        android:textColor="#9E9E9E"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_seatNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seat: "
+        android:textStyle="italic"
+        android:textColor="#9E9E9E"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnConfirmReservation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM RESERVATION"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:backgroundTint="#FFD501"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
